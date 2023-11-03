@@ -1,0 +1,72 @@
+
+
+.general {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    width: 900px;
+    padding: 40px;
+    border-radius: 10px;}
+
+.Btn{height: 50px;
+    width: 120px;
+    background-color: gray;
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    font-size: 18px;
+}
+.Btn--Red {background-color: red;}
+
+.Btn--green {background-color: green;}
+
+.Btn--Blue {background-color: blue;}
+
+.Btn--yellow {background-color: yellow; color: black;}
+
+.Btn--primary {width: 130px; height: 70px;}
+
+.Btn--radius {border-radius: 50px;}
+
+
+.Btn.is-active:hover{
+    background-color: rgb(26, 25, 25);
+    color: blueviolet;
+}
+
+.u-column {flex-direction: row;
+    justify-content: space-around;
+align-items: center;}
+
+.u-borderL {background-color: transparent;
+    border: 3px solid gray;
+    color: gray;}
+
+.u-borderSecondary {background-color: transparent;
+    border: 3px solid red;
+    color: red}
+
+.u-borderInfo{background-color: transparent;
+        border: 3px solid blue;
+        color: blue}
+
+.u-borderWarning{background-color: transparent;
+    border: 3px solid yellow;
+     color: yellow}
+
+.u-borderSubmit{background-color: transparent;
+    border: 3px solid green;
+    color: green}
+
+    .u-small {width: 90px;
+    height: 40px;}
+
+    .u-large {width: 170px;
+    height: 80px;}

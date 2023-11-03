@@ -1,0 +1,13 @@
+
+
+.v-line {border-left: thick solid black;
+height: 100%;
+left: 50%;
+position: absolute;}
+
+.vertical{ display: flex;}
+
+
+
+
+/* ------------ Bloques BEM  Vertical TimeLine ------------ */
